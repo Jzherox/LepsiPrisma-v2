@@ -1,5 +1,5 @@
 body {
-    background: url(/resources/media/Quienes-somos-scaled.jpg);
+    background: url(../media/Quienes-somos-scaled.jpg);
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center 50%;

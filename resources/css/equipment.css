@@ -1,5 +1,5 @@
 body {
-    background: url(/resources/media/Equipos1.jpg);
+    background: url(../media/Equipos1.jpg);
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center 50%;
