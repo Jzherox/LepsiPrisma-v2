@@ -1,0 +1,117 @@
+body {
+    background: url(/resources/media/Equipos1.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center 50%;
+    background-attachment: fixed;
+}
+
+.sect_14 {
+    height: 1250px;
+    background: #fff;
+    gap: 20px;
+}
+
+.sect_14 > p {
+    width: 50%;
+    text-align: center;
+}
+
+.sect_14 > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 65%;
+    gap: 80px;
+}
+
+.sect_14 > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.sect_14 > div > div > p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.sect_14 > div > div h1 {
+    color: #bf3f8a;
+    margin-bottom: 30px;
+}
+
+.sect_14 > div > div img {
+    height: 444px;
+    aspect-ratio: 1/1;
+}
+
+.sect_14 > div > div > div {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sect_14 > div > div > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sect_14 > div > div > div > div i {
+    color: #bf3f8a;
+    height: 100%;
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sect_14 > div > div > div > div p {
+    text-align: left;
+    font-weight: 200;
+    font-size: 14px;
+    color: #222;
+    width: 78%;
+}
+
+.sect_14 > div > div > div > div div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.sect_15 {
+    flex-direction: row;
+    height: 574px;
+    background: #F2F3F9;
+}
+
+.sect_15 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120%;
+    width: 50%;
+}
+
+.sect_15 div {
+    width: 50%;
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sect_15 div p {
+    font-weight: 100;
+}
+
+.sect_15 div p:nth-of-type(1) {
+    font-size: 20px;
+    font-weight: 600;
+}

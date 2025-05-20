@@ -1,0 +1,221 @@
+body {
+    background: url(/resources/media/Servicios-.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center 50%;
+    background-attachment: fixed;
+}
+
+.sect_11 {
+    height: 1000px;
+    background: #fff;
+    gap: 35px;
+}
+
+.sect_11 h1 {
+    text-align: center;
+    width: 50%;
+}
+
+.sect_11 > p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #222;
+}
+
+.sect_11 > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.sect_11 > div div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sect_11 div div p {
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    color: #222;
+}
+
+.sect_11 div div p:last-of-type {
+    font-size: 16px;
+    font-weight: 300;
+    color: #222;
+}
+
+.sect_11 div img {
+    height: 390px;
+}
+
+.sect_12 {
+    height: 1380px;
+    background: #F2F3F9;
+    gap: 30px;
+}
+
+.sect_12 p {
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #222;
+}
+
+.sect_12 .gallery {
+    display: flex;
+    flex-direction: column;
+    height: 876px;
+    gap: 5px;
+}
+
+.sect_12 .gallery div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 1150px;
+    gap: 5px;
+    overflow: hidden;
+}
+
+.sect_12 .gallery div img {
+    transition: filter 0.5s ease;
+}
+
+.sect_12 .gallery div:nth-of-type(1) img {
+    height: 168px;
+}
+
+.sect_12 .gallery div:nth-of-type(2) img {
+    height: 163px;
+}
+
+.sect_12 .gallery div:nth-of-type(3) img {
+    height: 170px;
+}
+
+.sect_12 .gallery div:nth-of-type(4) img {
+    height: 180px;
+}
+
+.sect_12 .gallery div:nth-of-type(5) img {
+    height: 170px;
+}
+
+.sect_12 .gallery div img:hover {
+    filter: grayscale();
+    transition: filter 0.5s ease;
+}
+
+.lightbox {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 99999;
+    transition: background 0.3s ease;
+}
+
+.lightbox i {
+    color: #c0c0c0;
+    transition: color 0.3s ease;
+    user-select: none;
+    padding: 5px;
+}
+
+.lightbox i:hover {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.lightbox.hidden {
+    display: none;
+}
+
+#lightbox-img {
+    max-width: 90vw;
+    max-height: 90vh;
+    transition: transform 0.4s ease;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.lightbox-controls {
+    position: absolute;
+    display: flex;
+    top: 0;
+    padding: 0 30px;
+    gap: 30px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 9999999;
+    margin-top: 10px;
+}
+
+.lightbox-controls div {
+    display: flex;
+    gap: 20px;
+    background: #000000b8;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 9999999;
+    margin-top: 10px;
+}
+
+.lightbox-controls div button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.lightbox-controls div button i {
+    font-size: 18px;
+}
+
+.lightbox-controls div:nth-of-type(1) {
+    font-size: 14px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    gap: 5px;
+}
+
+.lightbox button.nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: #000000b8;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 10002;
+    transition: background 0.2s;
+}
+
+.lightbox button.left {
+    left: 20px;
+}
+.lightbox button.right {
+    right: 20px;
+}

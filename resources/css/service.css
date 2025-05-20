@@ -1,0 +1,50 @@
+body {
+    background: url(/resources/media/mantenimiento-correctivo-y-preventivo.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center 50%;
+    background-attachment: fixed;
+}
+
+.sect_17 {
+    height: 882px;
+    background: #fff;
+    gap: 35px;
+}
+
+.sect_17 h1 {
+    text-align: center;
+    width: 34%;
+}
+
+.sect_17 > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.sect_17 > div div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sect_17 div div p {
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    color: #222;
+}
+
+.sect_17 div div p:last-of-type {
+    font-size: 16px;
+    font-weight: 300;
+    color: #222;
+}
+
+.sect_17 div img {
+    height: 448px;
+}
