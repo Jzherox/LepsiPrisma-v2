@@ -13,7 +13,7 @@
 
 h1 {
     font-family: "Poppins", sans-serif;
-    font-size: 42px;
+    font-size: 2.625rem;
     line-height: 57px;
     color: #222;
     text-transform: uppercase;
@@ -26,13 +26,13 @@ h2 {
     color: #222;
     text-transform: uppercase;
     letter-spacing: 0;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
 h5 {
     color: #bf3f8a;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 32px;
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
@@ -47,11 +47,11 @@ p {
     font-family: "Didact Gothic", sans-serif;
     font-weight: 400;
     letter-spacing: .8px;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .contact {
-    font-size: 13px;
+    font-size: 0.813rem;
     font-family: "Poppins", sans-serif;
     padding: 0 20px;
     background: #bf3f8a;
@@ -80,7 +80,7 @@ p {
     color: #000;
     font-weight: 600;
     letter-spacing: .8px;
-    font-size: 13px;
+    font-size: 0.813rem;
     width: fit-content;
     margin-top: 20px;
 }
@@ -130,12 +130,22 @@ section, footer {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 113px;
+    height: 112px;
     padding: 0 32px;
     background: none;
     transition: background 0.4s ease;
 }
 
+.header label {
+    display: none;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.header input {
+    display: none;
+    position: absolute;
+}
 
 .header nav {
     display: flex;
@@ -143,7 +153,7 @@ section, footer {
 }
 
 .header nav a {
-    font-size: 13px;
+    font-size: 0.813rem;
     text-transform: uppercase;
     color: #000;
     font-weight: 400;
@@ -182,7 +192,7 @@ section, footer {
     font-family: "Poppins", sans-serif;
     color: #fff;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 1.375rem;
     text-transform: uppercase;
     font-weight: 600;
     font-style: normal;
@@ -190,7 +200,7 @@ section, footer {
 }
 
 .sect_8 .contact {
-    font-size: 13px;
+    font-size: 0.813rem;
     padding: 0 20px;
 }
 
@@ -209,7 +219,7 @@ section, footer {
 }
 
 .sect_9 div:nth-of-type(1) p {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -277,7 +287,7 @@ section, footer {
 .sect_9 div:nth-of-type(2) div i {
     display: flex;
     justify-content: center;
-    font-size: 32px;
+    font-size: 2rem;
     width: 30px;
 }
 
@@ -288,14 +298,14 @@ section, footer {
 }
 
 .sect_9 div:nth-of-type(2) div div h1 {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: normal;
     font-weight: 600;
     color: #bf3f8a;
 }
 
 .sect_9 div:nth-of-type(2) div div p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 100;
     border-bottom: 0;
     line-height: normal;
@@ -303,12 +313,12 @@ section, footer {
 }
 
 .sect_9 div:nth-of-type(2) div div p:nth-of-type(1) {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 800;
 }
 
 .sect_9 div:nth-of-type(2) div div a {
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     color: #000;
     line-height: normal;
@@ -332,7 +342,7 @@ section, footer {
 }
 
 .sect_10 > div p {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
     line-height: 25px;
 }
@@ -361,12 +371,12 @@ section, footer {
     border-radius: 50%;
     width: 40px;
     aspect-ratio: 1/1;
-    font-size: 16px;
+    font-size: 1rem;
     transition: background 0.4s ease;
 }
 
 .sect_10 > div:nth-of-type(2) div i:nth-of-type(3) {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .sect_10 > div:nth-of-type(2) div i:hover {

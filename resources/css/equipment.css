@@ -34,7 +34,7 @@ body {
 }
 
 .sect_14 > div > div > p {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 100;
 }
 
@@ -73,7 +73,7 @@ body {
 .sect_14 > div > div > div > div p {
     text-align: left;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #222;
     width: 78%;
 }
@@ -112,6 +112,6 @@ body {
 }
 
 .sect_15 div p:nth-of-type(1) {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
