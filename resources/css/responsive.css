@@ -1,3 +1,9 @@
+@media (width <= 1400px) {
+    .sect_14 > div {
+        width: 80%;
+    }
+}
+
 @media (width <= 1250px) {
     .header {
         background: #ffffff;
@@ -25,12 +31,148 @@
         gap: 30px;
     }
 
+    .sect_1 h1 {
+        width: 90%;
+    }
+
+    .sect_2 {
+        padding: 80px 10%;
+    }
+
+    .sect_2 img {
+        width: 60%;
+        height: auto;
+    }
+
+    .sect_5 p {
+        width: 80%;
+    }
+
+    .sect_9 div:nth-of-type(1) form div {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sect_9 div:nth-of-type(1) form div input {
+        width: 100%;
+    }
+
     .sect_10 {
         flex-direction: row;
         height: 345px;
         background: #F2F3F8;
-        padding: 70px 5%;
-        gap: 100px;
+        padding: 80px 1%;
+        gap: 50px;
+    }
+
+    .sect_10 > div:nth-of-type(1) {
+        width: 30%;
+    }
+
+    .sect_10 > div:nth-of-type(1) img {
+        width: 100%;
+    }
+    
+    .sect_11 div img {
+        width: 40%;
+        height: auto;
+    }
+
+    .sect_12 p {
+        width: 80%;
+    }
+
+    .sect_12 .gallery {
+        width: 90%;
+        height: auto;
+    }
+
+    .sect_12 .gallery div {
+        height: auto;
+        width: fit-content;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .sect_12 .gallery div div {
+        height: auto;
+    }
+
+    .sect_12 .gallery div img {
+        height: 100px;
+        width: auto;
+    }
+
+    .sect_13 h1 {
+        width: 100%;
+    }
+
+    .sect_13 > div > div {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sect_13 div img {
+        width: 40%;
+        height: auto;
+    }
+
+    .sect_14 > div {
+        width: 100%;
+    }
+
+    .sect_16 {
+        padding: 80px 20px;
+    }
+
+    .sect_16 h1 {
+        width: 100%;
+    }
+
+    .sect_16 > div img {
+        width: 50%;
+        height: auto;
+    }
+
+    .sect_17 {
+        padding: 80px 20px;
+    }
+
+    .sect_17 h1 {
+        width: 100%;
+    }
+
+    .sect_17 > div img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (width <= 1100px) {
+    .sect_4 {
+        height: 485px;
+    }
+
+    .sect_8 {
+        padding: 40px 10px;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+
+    .sect_14 p {
+        width: 70%;
+    }
+
+    .sect_14 > div {
+        gap: 0;
+    }
+
+    .sect_14 > div div div {
+        flex-direction: column;
+        width: 80%;
     }
 }
 
@@ -54,7 +196,11 @@
         height: auto;
         width: 100%;
         flex-direction: column;
-        padding: 70px 20px;
+        padding: 70px 30px;
+    }
+
+    .sect_2 div {
+        padding: 0;
     }
 
     .sect_2 img {
@@ -85,10 +231,12 @@
 
     .sect_4 img {
         width: 100%;
+        height: auto;
     }
 
     .sect_4 div {
         width: 100%;
+        padding: 40px;
     }
 
     .sect_5 {
@@ -148,7 +296,7 @@
     }
 
     .sect_9 > div:nth-of-type(1) {
-        width: 80%;
+        width: 90%;
     }
 
     .sect_9 div:nth-of-type(1) form div {
@@ -206,6 +354,7 @@
     .sect_12 .gallery {
         flex-direction: column;
         height: auto;
+        width: fit-content;
     }
 
     .sect_12 .gallery div {
@@ -215,6 +364,7 @@
 
     .sect_12 .gallery div:nth-of-type(1) {
         display: flex;
+        width: fit-content;
     }
 
     .sect_12 .gallery div:nth-of-type(1) img {
@@ -223,7 +373,7 @@
 
     .sect_12 .gallery div:nth-of-type(1) img:nth-of-type(1) {
         display: block;
-        width: 40%;
+        width: 70%;
         height: auto;
         filter: brightness(.7);
         border: 3px solid #ffffff;
@@ -331,6 +481,7 @@
     }
 
     .sect_15 {
+        padding: 0;
         height: auto;
         flex-direction: column;
     }

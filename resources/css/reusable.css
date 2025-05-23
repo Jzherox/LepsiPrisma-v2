@@ -114,8 +114,10 @@ html {
     scroll-behavior: smooth;
 }
 
-section, footer {
+section {
     width: 100%;
+    height: fit-content;
+    padding: 80px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,7 +185,6 @@ section, footer {
 
 .sect_8 {
     flex-direction: row;
-    height: 150px;
     background: #262728;
     gap: 50px;
 }
@@ -206,7 +207,6 @@ section, footer {
 
 .sect_9 {
     flex-direction: row;
-    height: 702px;
     background: #ffffff;
     gap: 50px;
 }
@@ -327,7 +327,6 @@ section, footer {
 
 .sect_10 {
     flex-direction: row;
-    height: 345px;
     background: #F2F3F8;
     padding: 70px 140px;
     gap: 100px;
@@ -421,6 +420,9 @@ section, footer {
 .footer {
     height: 72px;
     background: #1D1D1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer p {
