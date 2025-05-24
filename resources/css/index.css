@@ -202,23 +202,21 @@ body {
     font-weight: 600;
 }
 
-.sect_7 div {
+.slider-container {
     width: 1200px;
     overflow: hidden;
 }
 
-.sect_7 div div {
+.slider-track {
     display: flex;
     width: calc(300px * 8);
     transition: transform 0.5s ease-in-out;
 }
 
-.sect_7 div div img {
-    width: 300px;
-    height: 100px;
-    object-fit: contain;
-    user-select: none;
-    pointer-events: none;
-    -webkit-user-drag: none;
+.slide {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
 }
-
