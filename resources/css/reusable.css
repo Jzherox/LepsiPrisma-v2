@@ -176,10 +176,12 @@ section {
     height: 100vh;
     background: #ffffffcc;
     gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .sect_1 h1 {
-    width: 42%;
+    width: 46%;
     text-align: center;
 }
 
