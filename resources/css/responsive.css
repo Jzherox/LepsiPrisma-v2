@@ -725,3 +725,10 @@
         width: 90%;
     }
 }
+
+@media (width <= 400px) {
+    .sect_9 div:nth-of-type(2) div {
+        flex-direction: column;
+        width: 100%;
+    }
+}
