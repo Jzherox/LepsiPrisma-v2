@@ -295,6 +295,22 @@
         width: 80%;
     }
 
+    .sect_15 {
+        padding: 0;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sect_15 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sect_15 div {
+        width: 100%;
+        height: auto;
+    }
+
     .sect_17 {
         height: auto;
         padding: 40px 10px;
@@ -320,7 +336,7 @@
 }
 
 @media (width <= 940px) {
-        .sect_4 {
+    .sect_4 {
         height: 620px;
     }
 }
@@ -641,22 +657,6 @@
     .sect_14 > div > div > div div {
         align-items: start;
         width: 80%;
-    }
-
-    .sect_15 {
-        padding: 0;
-        height: auto;
-        flex-direction: column;
-    }
-
-    .sect_15 img {
-        width: 100%;
-        height: auto;
-    }
-
-    .sect_15 div {
-        width: 100%;
-        height: auto;
     }
 
     .sect_16 {
