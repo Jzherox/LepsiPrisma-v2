@@ -484,6 +484,10 @@
         width: 100%;
     }
 
+    .sect_10 > div:nth-of-type(2) div {
+        justify-content: center;
+    }
+
     .sect_11 {
         flex-direction: column;
         height: auto;
@@ -715,5 +719,9 @@
 @media (width <= 630px) {
     .slider-container {
         width: 300px;
+    }
+
+    .sect_10 > div {
+        width: 90%;
     }
 }

@@ -360,6 +360,7 @@ section {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    width: 100%;
 }
 
 .sect_10 > div:nth-of-type(2) div i {
@@ -425,6 +426,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    padding: 10px;
 }
 
 .footer p {
