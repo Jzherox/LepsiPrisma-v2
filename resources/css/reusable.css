@@ -354,6 +354,7 @@ section {
 
 .sect_10 > div:nth-of-type(1) img {
     height: 90px;
+    width: auto;
 }
 
 .sect_10 > div:nth-of-type(2) div {
